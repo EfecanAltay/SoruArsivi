@@ -236,14 +236,14 @@
 
 			window.onerror = function(event) { presentation.setStatus("Failure during start-up, see JavaScript console") };
 
-			if (true) { // controls enabled
+			if (false) { // controls enabled
 				(function() {
 					var controlsElement = document.getElementById("controls");
 					controlsElement.style.visibility="visible";
 				})();
 			}
 
-			if (true) { // debugging enabled
+			if (false) { // debugging enabled
 				(function() {
 					var outputToggleLabel = document.getElementById("display-output");
 					var outputToggle = document.getElementById("output-toggle");
